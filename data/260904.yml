@@ -7,7 +7,7 @@ about:
   head: bcba630
   archived: false
   latestVersion: 5.1.12
-  collectedAt: 2026-09-04T20:14:30Z
+  collectedAt: 2026-09-04T20:28:01Z
 timeline:
   created: 2015-08-04
   lastCommit: 2026-09-03
@@ -85,7 +85,7 @@ total:
   commit: 2378
 ---
 path: /home/runner/.x-repo/github.com/fcitx/fcitx5
-collectedAt: 2026-09-04T20:14:33Z
+collectedAt: 2026-09-04T20:28:02Z
 loc:
   Cpp:
     code: 48705
