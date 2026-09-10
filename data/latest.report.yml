@@ -7,7 +7,7 @@ about:
   latestVersion: "5.1.12"
   latestRelease: "5.1.12"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:36:22Z
+  collectedAt: 2026-09-10T20:38:51Z
 timeline:
   created: 2015-08-04
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-01-23
   lastPrerelease: 
 popularity:
-  star: 2544
+  star: 2545
   watcher: 27
   fork: 181
   release: 4
@@ -87,7 +87,7 @@ total:
   commit: 2390
 ---
 path: /home/runner/.x-repo/github.com/fcitx/fcitx5
-collectedAt: 2026-09-10T05:36:25Z
+collectedAt: 2026-09-10T20:38:54Z
 loc:
   Cpp:
     code: 49236
