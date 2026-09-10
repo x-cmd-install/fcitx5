@@ -7,7 +7,7 @@ about:
   latestVersion: "5.1.12"
   latestRelease: "5.1.12"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:38:51Z
+  collectedAt: 2026-09-10T23:12:26Z
 timeline:
   created: 2015-08-04
   lastCommit: 2026-09-09
@@ -87,7 +87,7 @@ total:
   commit: 2390
 ---
 path: /home/runner/.x-repo/github.com/fcitx/fcitx5
-collectedAt: 2026-09-10T20:38:54Z
+collectedAt: 2026-09-10T23:12:29Z
 loc:
   Cpp:
     code: 49236
