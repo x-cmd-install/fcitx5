@@ -14,12 +14,12 @@ x install fcitx5
 
 ## Code insight
 
-Total: **91,586** lines of code across **655** files in the top 5 languages.
+Total: **91,770** lines of code across **656** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 49,250 | 2,404 | 6,134 | 280 |
-| CHeader | 31,219 | 5,273 | 4,365 | 283 |
+| Cpp | 49,342 | 2,411 | 6,141 | 280 |
+| CHeader | 31,281 | 5,307 | 4,377 | 284 |
 | Svg | 3,098 | 8 | 8 | 9 |
 | CMake | 2,155 | 124 | 402 | 76 |
 | Xml | 1,994 | 10 | 285 | 7 |
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `5.1.12` (2025-01-23)
-- **Last commit**: 2026-09-11
+- **Last commit**: 2026-09-12
 
 ## Popularity
 
-- **Stars**: 2,546 · **Forks**: 181 · **Open issues**: 928 · **Contributors**: 73
+- **Stars**: 2,548 · **Forks**: 181 · **Open issues**: 930 · **Contributors**: 73
 
 ## Totals (cumulative)
 
-- **Releases**: 4 · **Merged PRs**: 300 · **Open PRs**: 16 · **Closed issues**: 865 · **Open issues**: 63 · **Commits**: 2392
+- **Releases**: 4 · **Merged PRs**: 304 · **Open PRs**: 14 · **Closed issues**: 867 · **Open issues**: 63 · **Commits**: 2398
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 8 | 4 | 7 | 6 | 22 |
-| last60d | 2026-07-13 | 0 | 25 | 7 | 14 | 9 | 60 |
-| 90d | 2026-06-13 | 0 | 30 | 7 | 24 | 10 | 85 |
-| last180d | 2026-03-15 | 0 | 47 | 8 | 46 | 12 | 116 |
-| 360d | 2025-09-16 | 0 | 73 | 11 | 91 | 22 | 177 |
-| last720d | 2024-09-21 | 2 | 148 | 14 | 199 | 33 | 427 |
+| 30d | 2026-08-14 | 0 | 12 | 2 | 8 | 6 | 18 |
+| last60d | 2026-07-15 | 0 | 29 | 5 | 13 | 9 | 57 |
+| 90d | 2026-06-15 | 0 | 34 | 5 | 26 | 10 | 81 |
+| last180d | 2026-03-17 | 0 | 51 | 5 | 47 | 12 | 118 |
+| 360d | 2025-09-18 | 0 | 77 | 9 | 92 | 22 | 181 |
+| last720d | 2024-09-23 | 2 | 152 | 12 | 200 | 33 | 433 |
 
 ## Distribution status
 
-Reported by **120** distros on [repology.org](https://repology.org/project/fcitx5). **16** are ✅ on the latest upstream release, **95** are ⚠️ on an older version.
+Reported by **119** distros on [repology.org](https://repology.org/project/fcitx5). **16** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,4 +91,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T19:04:47Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T05:44:52Z._
