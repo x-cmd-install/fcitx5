@@ -30,7 +30,7 @@ Overall score: **4.7 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 5/21 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/21 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,553 · **Forks**: 181 · **Open issues**: 931 · **Contributors**: 73
+- **Stars**: 2,555 · **Forks**: 182 · **Open issues**: 932 · **Contributors**: 73
 
 ## Totals (cumulative)
 
-- **Releases**: 4 · **Merged PRs**: 304 · **Open PRs**: 14 · **Closed issues**: 868 · **Open issues**: 63 · **Commits**: 2398
+- **Releases**: 4 · **Merged PRs**: 304 · **Open PRs**: 14 · **Closed issues**: 868 · **Open issues**: 64 · **Commits**: 2398
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 11 | 2 | 8 | 6 | 18 |
-| last60d | 2026-07-17 | 0 | 28 | 5 | 12 | 9 | 57 |
-| 90d | 2026-06-17 | 0 | 34 | 5 | 27 | 10 | 81 |
-| last180d | 2026-03-19 | 0 | 51 | 5 | 46 | 12 | 118 |
-| 360d | 2025-09-20 | 0 | 77 | 9 | 93 | 22 | 181 |
-| last720d | 2024-09-25 | 2 | 152 | 12 | 201 | 32 | 433 |
+| 30d | 2026-08-17 | 0 | 10 | 2 | 8 | 7 | 18 |
+| last60d | 2026-07-18 | 0 | 27 | 5 | 12 | 10 | 57 |
+| 90d | 2026-06-18 | 0 | 34 | 5 | 26 | 11 | 81 |
+| last180d | 2026-03-20 | 0 | 51 | 5 | 46 | 13 | 118 |
+| 360d | 2025-09-21 | 0 | 77 | 9 | 93 | 23 | 181 |
+| last720d | 2024-09-26 | 2 | 152 | 12 | 201 | 33 | 433 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:01:56Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:53:07Z._
