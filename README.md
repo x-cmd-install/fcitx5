@@ -14,14 +14,14 @@ x install fcitx5
 
 ## Code insight
 
-Total: **91,821** lines of code across **656** files in the top 5 languages.
+Total: **91,957** lines of code across **659** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 49,400 | 2,411 | 6,143 | 280 |
-| CHeader | 31,274 | 5,307 | 4,374 | 284 |
+| Cpp | 49,536 | 2,424 | 6,167 | 282 |
+| CHeader | 31,259 | 5,376 | 4,379 | 285 |
 | Svg | 3,098 | 8 | 8 | 9 |
-| CMake | 2,155 | 124 | 402 | 76 |
+| CMake | 2,170 | 124 | 406 | 76 |
 | Xml | 1,994 | 10 | 285 | 7 |
 
 ## OpenSSF Scorecard
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `5.1.12` (2025-01-23)
-- **Last commit**: 2026-09-18
+- **Last commit**: 2026-09-20
 
 ## Popularity
 
-- **Stars**: 2,560 · **Forks**: 182 · **Open issues**: 934 · **Contributors**: 73
+- **Stars**: 2,563 · **Forks**: 182 · **Open issues**: 934 · **Contributors**: 75
 
 ## Totals (cumulative)
 
-- **Releases**: 4 · **Merged PRs**: 307 · **Open PRs**: 16 · **Closed issues**: 874 · **Open issues**: 60 · **Commits**: 2401
+- **Releases**: 4 · **Merged PRs**: 310 · **Open PRs**: 12 · **Closed issues**: 875 · **Open issues**: 59 · **Commits**: 2405
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 12 | 5 | 12 | 4 | 18 |
-| last60d | 2026-07-22 | 0 | 29 | 8 | 17 | 7 | 53 |
-| 90d | 2026-06-22 | 0 | 36 | 8 | 29 | 8 | 80 |
-| last180d | 2026-03-24 | 0 | 54 | 8 | 48 | 9 | 119 |
-| 360d | 2025-09-25 | 0 | 80 | 9 | 98 | 18 | 181 |
-| last720d | 2024-09-30 | 2 | 155 | 14 | 206 | 28 | 436 |
+| 30d | 2026-08-22 | 0 | 13 | 3 | 13 | 3 | 22 |
+| last60d | 2026-07-23 | 0 | 31 | 5 | 18 | 6 | 57 |
+| 90d | 2026-06-23 | 0 | 38 | 5 | 29 | 7 | 84 |
+| last180d | 2026-03-25 | 0 | 56 | 5 | 49 | 8 | 123 |
+| 360d | 2025-09-26 | 0 | 82 | 6 | 99 | 17 | 185 |
+| last720d | 2024-10-01 | 2 | 158 | 10 | 206 | 27 | 440 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:50:40Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T06:04:52Z._
