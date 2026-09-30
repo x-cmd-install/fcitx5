@@ -30,7 +30,7 @@ x install fcitx5
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/21 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/27 approved changesets -- score normalized to 2
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -47,22 +47,22 @@ x install fcitx5
 
 ## 流行度
 
-- **Star**: 2,574 · **Fork**: 185 · **开放 issue**: 937 · **贡献者**: 76
+- **Star**: 2,577 · **Fork**: 185 · **开放 issue**: 939 · **贡献者**: 76
 
 ## 累计统计
 
-- **发布数**: 4 · **已合并 PR**: 315 · **开放 PR**: 13 · **已关闭 issue**: 876 · **开放 issue**: 61 · **提交数**: 2416
+- **发布数**: 4 · **已合并 PR**: 315 · **开放 PR**: 13 · **已关闭 issue**: 877 · **开放 issue**: 62 · **提交数**: 2416
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 17 | 3 | 13 | 4 | 32 |
-| last60d | 2026-07-31 | 0 | 32 | 6 | 18 | 7 | 57 |
-| 90d | 2026-07-01 | 0 | 42 | 6 | 26 | 9 | 95 |
-| last180d | 2026-04-02 | 0 | 60 | 6 | 47 | 9 | 132 |
-| 360d | 2025-10-04 | 0 | 85 | 7 | 97 | 18 | 196 |
-| last720d | 2024-10-09 | 2 | 163 | 11 | 202 | 29 | 450 |
+| 30d | 2026-08-31 | 0 | 17 | 3 | 14 | 5 | 32 |
+| last60d | 2026-08-01 | 0 | 32 | 5 | 18 | 8 | 57 |
+| 90d | 2026-07-02 | 0 | 42 | 6 | 27 | 10 | 95 |
+| last180d | 2026-04-03 | 0 | 60 | 6 | 48 | 10 | 132 |
+| 360d | 2025-10-05 | 0 | 85 | 7 | 98 | 19 | 196 |
+| last720d | 2024-10-10 | 2 | 163 | 11 | 203 | 30 | 450 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ fcitx5 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260929.yml` · 2026-09-29T06:31:12Z._
+_数据快照: `data/card/260930.yml` · 2026-09-30T06:25:14Z._
