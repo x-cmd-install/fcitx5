@@ -43,7 +43,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `5.1.12` (2025-01-23)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-10-09
 
 ## Popularity
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 4 · **Merged PRs**: 315 · **Open PRs**: 15 · **Closed issues**: 880 · **Open issues**: 63 · **Commits**: 2416
+- **Releases**: 4 · **Merged PRs**: 315 · **Open PRs**: 17 · **Closed issues**: 882 · **Open issues**: 61 · **Commits**: 2417
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-09 | 0 | 13 | 4 | 13 | 4 | 25 |
-| last60d | 2026-08-10 | 0 | 21 | 7 | 21 | 8 | 46 |
-| 90d | 2026-07-11 | 0 | 41 | 8 | 28 | 10 | 86 |
-| last180d | 2026-04-12 | 0 | 54 | 8 | 50 | 11 | 128 |
-| 360d | 2025-10-14 | 0 | 85 | 9 | 101 | 19 | 196 |
-| last720d | 2024-10-19 | 2 | 162 | 13 | 203 | 31 | 449 |
+| 30d | 2026-09-10 | 0 | 13 | 6 | 15 | 3 | 26 |
+| last60d | 2026-08-11 | 0 | 21 | 9 | 23 | 6 | 47 |
+| 90d | 2026-07-12 | 0 | 40 | 10 | 30 | 8 | 87 |
+| last180d | 2026-04-13 | 0 | 54 | 10 | 52 | 9 | 129 |
+| 360d | 2025-10-15 | 0 | 85 | 11 | 103 | 17 | 197 |
+| last720d | 2024-10-20 | 2 | 162 | 15 | 205 | 29 | 450 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261009.yml` · 2026-10-09T06:50:50Z._
+_Snapshot: `data/card/261010.yml` · 2026-10-10T06:29:43Z._
