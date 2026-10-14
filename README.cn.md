@@ -26,11 +26,11 @@ x install fcitx5
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.6 / 10**
+总评分: **4.5 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/27 approved changesets -- score normalized to 2
+- **Code-Review** (1/10) — Found 4/26 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
 
@@ -47,7 +47,7 @@ x install fcitx5
 
 ## 流行度
 
-- **Star**: 2,598 · **Fork**: 190 · **开放 issue**: 943 · **贡献者**: 76
+- **Star**: 2,599 · **Fork**: 191 · **开放 issue**: 943 · **贡献者**: 76
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install fcitx5
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 12 | 4 | 13 | 1 | 22 |
-| last60d | 2026-08-14 | 0 | 24 | 6 | 24 | 4 | 47 |
-| 90d | 2026-07-15 | 0 | 42 | 8 | 29 | 6 | 83 |
-| last180d | 2026-04-16 | 0 | 57 | 8 | 54 | 7 | 135 |
-| 360d | 2025-10-18 | 0 | 88 | 9 | 106 | 14 | 203 |
-| last720d | 2024-10-23 | 2 | 165 | 13 | 206 | 26 | 456 |
+| 30d | 2026-09-14 | 0 | 12 | 4 | 12 | 1 | 22 |
+| last60d | 2026-08-15 | 0 | 23 | 6 | 23 | 4 | 47 |
+| 90d | 2026-07-16 | 0 | 41 | 8 | 28 | 6 | 83 |
+| last180d | 2026-04-17 | 0 | 57 | 8 | 54 | 7 | 135 |
+| 360d | 2025-10-19 | 0 | 88 | 9 | 106 | 14 | 203 |
+| last720d | 2024-10-24 | 2 | 165 | 13 | 206 | 26 | 456 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ fcitx5 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261013.yml` · 2026-10-13T07:37:37Z._
+_数据快照: `data/card/261014.yml` · 2026-10-14T05:39:47Z._

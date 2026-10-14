@@ -26,11 +26,11 @@ Total: **92,590** lines of code across **663** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.6 / 10**
+Overall score: **4.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/27 approved changesets -- score normalized to 2
+- **Code-Review** (1/10) — Found 4/26 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,598 · **Forks**: 190 · **Open issues**: 943 · **Contributors**: 76
+- **Stars**: 2,599 · **Forks**: 191 · **Open issues**: 943 · **Contributors**: 76
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 12 | 4 | 13 | 1 | 22 |
-| last60d | 2026-08-14 | 0 | 24 | 6 | 24 | 4 | 47 |
-| 90d | 2026-07-15 | 0 | 42 | 8 | 29 | 6 | 83 |
-| last180d | 2026-04-16 | 0 | 57 | 8 | 54 | 7 | 135 |
-| 360d | 2025-10-18 | 0 | 88 | 9 | 106 | 14 | 203 |
-| last720d | 2024-10-23 | 2 | 165 | 13 | 206 | 26 | 456 |
+| 30d | 2026-09-14 | 0 | 12 | 4 | 12 | 1 | 22 |
+| last60d | 2026-08-15 | 0 | 23 | 6 | 23 | 4 | 47 |
+| 90d | 2026-07-16 | 0 | 41 | 8 | 28 | 6 | 83 |
+| last180d | 2026-04-17 | 0 | 57 | 8 | 54 | 7 | 135 |
+| 360d | 2025-10-19 | 0 | 88 | 9 | 106 | 14 | 203 |
+| last720d | 2024-10-24 | 2 | 165 | 13 | 206 | 26 | 456 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:37:37Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:39:46Z._
