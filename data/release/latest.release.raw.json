@@ -43,8 +43,8 @@
   "body": "Hi all,\r\nHappy new year and Happy upcoming Chinese New Year.\r\n\r\nIn this release we introduced some changes to the framework that\r\nallows people to build a fully statically linked Fcitx, which would be\r\nnecessary where dynamic loading is not allowed.\r\nA new behavior is introduced for modifier-key-only shortcut: The short\r\nwill be triggered only  if it is released within 250ms timeout. If you\r\nwant to restore the old behavior it can be tuned in global config.\r\nAn old change of on wayland input method frontend was re-introduced,\r\nin order to solve some issue when zwp_input_method_v2 is used, mostly\r\nrelevant to modifier key state and key release event is not sent.\r\nHowever, since it is known that it causes issues on certain older\r\nversions of compositor, a workaround option is also introduced in\r\nwayland im frontend config to allow the old behavior to be used.\r\n\r\nfcitx5\r\n1. new addon factory mechanism to allow static link\r\n2. modifier only key timeout\r\n3. improve virtual keyboard object handling for zwp_input_method_v2\r\n\r\nfcitx5-anthy\r\nFix nicola key timeout accuracy\r\n\r\nfcitx5-chinese-addons\r\nAllow \"@\" & \"/\" to entry quick phrase mode and also allow restore to\r\noriginal mode\r\nNew PageSize=0 behavior for table engine\r\nQuickphrase trigger is now uses regular expression\r\nPreliminary Correction for shuangpin\r\n\r\nfcitx5-table-other\r\nUpdate lots of table to use the new PageSize=0 behavior\r\n\r\nlibime\r\nNew language model to fix some frequency issue\r\nCorrection support for shuangpin\r\nImproving segmentation algorithm for pinyin\r\n\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/fcitx/fcitx5/releases/196311128/reactions",
-    "total_count": 27,
-    "+1": 15,
+    "total_count": 28,
+    "+1": 16,
     "-1": 0,
     "laugh": 1,
     "hooray": 6,
