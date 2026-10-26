@@ -20,17 +20,21 @@
     - poscat@mail.poscat.moe
   licenses:
     - LGPL-2.1-or-later
-- repo: nix_stable_25_11
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.16
-  origversion: null
-  status: outdated
+- repo: aur
+  srcname: fcitx5-git
+  binname: fcitx5-git
+  visiblename: fcitx5-git
+  version: 5.1.23.r13.gc3f37db
+  origversion: 5.1.23.r13.gc3f37db-1
+  status: rolling
   summary: Next generation of fcitx
   maintainers:
-    - poscat@mail.poscat.moe
+    - capricornus007@aur
+    - csslayer@aur
+    - felixonmars@aur
+    - lilac@aur
   licenses:
-    - LGPL-2.1-or-later
+    - GPL
 - repo: aerynos
   srcname: fcitx5
   visiblename: fcitx5
@@ -145,21 +149,6 @@
     - i@lin.moe
   licenses:
     - LGPL-2.1-or-later
-- repo: aur
-  srcname: fcitx5-git
-  binname: fcitx5-git
-  visiblename: fcitx5-git
-  version: 5.1.23.r12.g456ff90
-  origversion: 5.1.23.r12.g456ff90-1
-  status: rolling
-  summary: Next generation of fcitx
-  maintainers:
-    - capricornus007@aur
-    - csslayer@aur
-    - felixonmars@aur
-    - lilac@aur
-  licenses:
-    - GPL
 - repo: alpine_3_23
   subrepo: community
   srcname: fcitx5
@@ -643,6 +632,25 @@
   categories:
     - misc
 - repo: fedora_39
+  subrepo: release
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+    - fcitx5-debuginfo
+    - fcitx5-debugsource
+  visiblename: fcitx5
+  version: 5.1.0
+  origversion: 5.1.0-1.fc39
+  status: legacy
+  summary: Next generation of fcitx
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_39
   subrepo: updates
   srcname: fcitx5
   binnames:
@@ -657,25 +665,6 @@
   version: 5.1.10
   origversion: 5.1.10-3.fc39
   status: outdated
-  summary: Next generation of fcitx
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_39
-  subrepo: release
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-    - fcitx5-debuginfo
-    - fcitx5-debugsource
-  visiblename: fcitx5
-  version: 5.1.0
-  origversion: 5.1.0-1.fc39
-  status: legacy
   summary: Next generation of fcitx
   licenses:
     - LGPLv2+
@@ -830,24 +819,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-libs
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-  visiblename: fcitx5
-  version: 5.1.23
-  origversion: 5.1.23-1.fc44
-  status: newest
-  summary: Next generation of fcitx
-  licenses:
-    - LicenseRef-Callaway-LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: fcitx5
   binnames:
@@ -860,6 +831,24 @@
   version: 5.1.19
   origversion: 5.1.19-1.fc44
   status: legacy
+  summary: Next generation of fcitx
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-libs
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+  visiblename: fcitx5
+  version: 5.1.23
+  origversion: 5.1.23-1.fc44
+  status: newest
   summary: Next generation of fcitx
   licenses:
     - LicenseRef-Callaway-LGPLv2+
@@ -980,6 +969,17 @@
   srcname: fcitx5
   visiblename: fcitx5
   version: 5.1.10
+  origversion: null
+  status: outdated
+  summary: Next generation of fcitx
+  maintainers:
+    - poscat@mail.poscat.moe
+  licenses:
+    - LGPL-2.1-or-later
+- repo: nix_stable_25_11
+  srcname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.16
   origversion: null
   status: outdated
   summary: Next generation of fcitx
@@ -1357,7 +1357,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: fcitx5
   binnames:
     - fcitx5
@@ -1380,21 +1380,8 @@
     - byang@debian.org
   categories:
     - misc
-- repo: t2
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.23
-  origversion: null
-  status: newest
-  summary: Next generation of fcitx
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - LGPL
-  categories:
-    - extra/library
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: fcitx5
   binnames:
     - fcitx5
@@ -1738,19 +1725,19 @@
     - LGPL-2.1-or-later
   categories:
     - programming.library
-- repo: void_x86_64
-  subrepo: x86_64
+- repo: t2
   srcname: fcitx5
-  binname: fcitx5
   visiblename: fcitx5
-  version: 5.1.21
-  origversion: 5.1.21_1
-  status: outdated
-  summary: Flexible Context-aware Input Tool with eXtension - v5
+  version: 5.1.23
+  origversion: null
+  status: newest
+  summary: Next generation of fcitx
   maintainers:
-    - congdanhqx@gmail.com
+    - rene@exactco.de
   licenses:
-    - LGPL-2.1-or-later
+    - LGPL
+  categories:
+    - extra/library
 - repo: termux
   srcname: fcitx5
   binname: fcitx5
@@ -1946,6 +1933,19 @@
   origversion: 5.1.21_1
   status: outdated
   summary: Flexible Context-aware Input Tool with eXtension - v5 - transition
+  maintainers:
+    - congdanhqx@gmail.com
+  licenses:
+    - LGPL-2.1-or-later
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: fcitx5
+  binname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.21
+  origversion: 5.1.21_1
+  status: outdated
+  summary: Flexible Context-aware Input Tool with eXtension - v5
   maintainers:
     - congdanhqx@gmail.com
   licenses:
