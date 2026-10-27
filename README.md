@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,614 · **Forks**: 192 · **Open issues**: 947 · **Contributors**: 77
+- **Stars**: 2,614 · **Forks**: 193 · **Open issues**: 948 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 4 · **Merged PRs**: 320 · **Open PRs**: 12 · **Closed issues**: 889 · **Open issues**: 58 · **Commits**: 2426
+- **Releases**: 4 · **Merged PRs**: 320 · **Open PRs**: 12 · **Closed issues**: 889 · **Open issues**: 59 · **Commits**: 2426
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 7 | 0 | 14 | 0 | 9 |
-| last60d | 2026-08-27 | 0 | 22 | 2 | 27 | 3 | 43 |
-| 90d | 2026-07-28 | 0 | 39 | 5 | 32 | 6 | 73 |
-| last180d | 2026-04-29 | 0 | 57 | 5 | 56 | 7 | 135 |
-| 360d | 2025-10-31 | 0 | 87 | 6 | 102 | 13 | 200 |
-| last720d | 2024-11-05 | 2 | 164 | 10 | 206 | 26 | 458 |
+| 30d | 2026-09-27 | 0 | 4 | 0 | 12 | 1 | 9 |
+| last60d | 2026-08-28 | 0 | 22 | 2 | 27 | 4 | 43 |
+| 90d | 2026-07-29 | 0 | 39 | 5 | 31 | 6 | 73 |
+| last180d | 2026-04-30 | 0 | 57 | 5 | 55 | 8 | 135 |
+| 360d | 2025-11-01 | 0 | 87 | 6 | 102 | 14 | 200 |
+| last720d | 2024-11-06 | 2 | 162 | 10 | 205 | 27 | 458 |
 
 ## Distribution status
 
-Reported by **113** distros on [repology.org](https://repology.org/project/fcitx5). **29** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+Reported by **113** distros on [repology.org](https://repology.org/project/fcitx5). **30** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -80,7 +80,7 @@ Reported by **113** distros on [repology.org](https://repology.org/project/fcitx
 | Nix unstable | `5.1.23` | ✅ latest |
 | Void | `5.1.21` | ⚠️ outdated |
 | Alpine edge | `5.1.23` | ✅ latest |
-| openSUSE Tumbleweed | `5.1.17` | ⚠️ outdated |
+| openSUSE Tumbleweed | `5.1.23` | ✅ latest |
 
 ## Improve this data
 
@@ -91,4 +91,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T05:31:31Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:50:43Z._
