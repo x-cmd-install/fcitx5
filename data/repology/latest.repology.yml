@@ -1,14 +1,3 @@
-- repo: chimera
-  subrepo: main
-  srcname: fcitx5
-  binname: fcitx5-locale
-  visiblename: fcitx5-locale
-  version: 5.1.23
-  origversion: 5.1.23-r0
-  status: newest
-  summary: Generic input method framework (locale data)
-  licenses:
-    - LGPL-2.1-or-later
 - repo: slackware64_current
   subrepo: slackware64
   binname: fcitx5
@@ -18,18 +7,6 @@
   status: newest
   maintainers:
     - volkerdi@slackware.com
-- repo: parabola
-  subrepo: extra
-  srcname: fcitx5
-  binname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.23
-  origversion: 5.1.23-1
-  status: newest
-  summary: Next generation of fcitx, cross-platform input method framework
-  licenses:
-    - LGPL-2.1-or-later
-    - Unicode-DFS-2016
 - repo: aerynos
   srcname: fcitx5
   visiblename: fcitx5
@@ -92,6 +69,18 @@
     - i@lin.moe
   licenses:
     - LGPL-2.1-or-later
+- repo: parabola
+  subrepo: extra
+  srcname: fcitx5
+  binname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.23
+  origversion: 5.1.23-1
+  status: newest
+  summary: Next generation of fcitx, cross-platform input method framework
+  licenses:
+    - LGPL-2.1-or-later
+    - Unicode-DFS-2016
 - repo: alpine_3_22
   subrepo: community
   srcname: fcitx5
@@ -386,6 +375,17 @@
   origversion: 5.1.23-r0
   status: newest
   summary: Generic input method framework
+  licenses:
+    - LGPL-2.1-or-later
+- repo: chimera
+  subrepo: main
+  srcname: fcitx5
+  binname: fcitx5-locale
+  visiblename: fcitx5-locale
+  version: 5.1.23
+  origversion: 5.1.23-r0
+  status: newest
+  summary: Generic input method framework (locale data)
   licenses:
     - LGPL-2.1-or-later
 - repo: debian_11
@@ -697,26 +697,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: release
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-libs
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-    - fcitx5-debuginfo
-    - fcitx5-debugsource
-  visiblename: fcitx5
-  version: 5.1.8
-  origversion: 5.1.8-1.fc40
-  status: legacy
-  summary: Next generation of fcitx
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: updates
   srcname: fcitx5
   binnames:
@@ -736,7 +716,7 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: release
   srcname: fcitx5
   binnames:
@@ -745,9 +725,11 @@
     - fcitx5-data
     - fcitx5-devel
     - fcitx5-autostart
+    - fcitx5-debuginfo
+    - fcitx5-debugsource
   visiblename: fcitx5
-  version: 5.1.10
-  origversion: 5.1.10-3.fc41
+  version: 5.1.8
+  origversion: 5.1.8-1.fc40
   status: legacy
   summary: Next generation of fcitx
   licenses:
@@ -772,8 +754,8 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
+- repo: fedora_41
+  subrepo: release
   srcname: fcitx5
   binnames:
     - fcitx5
@@ -782,12 +764,12 @@
     - fcitx5-devel
     - fcitx5-autostart
   visiblename: fcitx5
-  version: 5.1.17
-  origversion: 5.1.17-1.fc42
-  status: outdated
+  version: 5.1.10
+  origversion: 5.1.10-3.fc41
+  status: legacy
   summary: Next generation of fcitx
   licenses:
-    - LicenseRef-Callaway-LGPLv2+
+    - LGPLv2+
   categories:
     - Unspecified
 - repo: fedora_42
@@ -803,6 +785,24 @@
   version: 5.1.12
   origversion: 5.1.12-1.fc42
   status: legacy
+  summary: Next generation of fcitx
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: updates
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-libs
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+  visiblename: fcitx5
+  version: 5.1.17
+  origversion: 5.1.17-1.fc42
+  status: outdated
   summary: Next generation of fcitx
   licenses:
     - LicenseRef-Callaway-LGPLv2+
@@ -845,24 +845,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: updates
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-libs
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-  visiblename: fcitx5
-  version: 5.1.23
-  origversion: 5.1.23-1.fc44
-  status: newest
-  summary: Next generation of fcitx
-  licenses:
-    - LicenseRef-Callaway-LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: release
   srcname: fcitx5
   binnames:
@@ -875,6 +857,24 @@
   version: 5.1.19
   origversion: 5.1.19-1.fc44
   status: legacy
+  summary: Next generation of fcitx
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-libs
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+  visiblename: fcitx5
+  version: 5.1.23
+  origversion: 5.1.23-1.fc44
+  status: newest
   summary: Next generation of fcitx
   licenses:
     - LicenseRef-Callaway-LGPLv2+
