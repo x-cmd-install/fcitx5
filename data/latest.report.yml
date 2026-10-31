@@ -7,7 +7,7 @@ about:
   latestVersion: "5.1.12"
   latestRelease: "5.1.12"
   latestPrerelease: ""
-  collectedAt: 2026-10-30T06:30:57Z
+  collectedAt: 2026-10-31T06:27:14Z
 timeline:
   created: 2015-08-04
   lastCommit: 2026-10-25
@@ -31,7 +31,7 @@ language:
 totalBytes: 3422576
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
     mergedPR: 3
     openPR: 0
@@ -39,7 +39,7 @@ recent:
     openIssue: 2
     commit: 9
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 0
     mergedPR: 22
     openPR: 2
@@ -47,15 +47,15 @@ recent:
     openIssue: 5
     commit: 43
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 0
-    mergedPR: 37
+    mergedPR: 36
     openPR: 4
     closedIssue: 31
     openIssue: 7
     commit: 73
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 0
     mergedPR: 57
     openPR: 5
@@ -63,7 +63,7 @@ recent:
     openIssue: 9
     commit: 135
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 0
     mergedPR: 87
     openPR: 6
@@ -71,13 +71,13 @@ recent:
     openIssue: 15
     commit: 200
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 2
-    mergedPR: 160
+    mergedPR: 159
     openPR: 10
     closedIssue: 206
-    openIssue: 28
-    commit: 454
+    openIssue: 27
+    commit: 453
 total:
   release: 4
   mergedPR: 320
@@ -87,7 +87,7 @@ total:
   commit: 2426
 ---
 path: /home/runner/.x-repo/github.com/fcitx/fcitx5
-collectedAt: 2026-10-30T06:31:03Z
+collectedAt: 2026-10-31T06:27:18Z
 loc:
   Cpp:
     code: 50114
