@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,621 · **Forks**: 194 · **Open issues**: 951 · **Contributors**: 77
+- **Stars**: 2,621 · **Forks**: 195 · **Open issues**: 951 · **Contributors**: 77
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 4 | 1 | 11 | 3 | 12 |
-| last60d | 2026-09-02 | 0 | 22 | 3 | 27 | 5 | 46 |
-| 90d | 2026-08-03 | 0 | 35 | 5 | 31 | 7 | 76 |
-| last180d | 2026-05-05 | 0 | 58 | 6 | 56 | 10 | 138 |
-| 360d | 2025-11-06 | 0 | 88 | 7 | 102 | 16 | 203 |
-| last720d | 2024-11-11 | 2 | 160 | 11 | 205 | 28 | 456 |
+| 30d | 2026-10-03 | 0 | 4 | 1 | 10 | 3 | 12 |
+| last60d | 2026-09-03 | 0 | 22 | 3 | 27 | 5 | 38 |
+| 90d | 2026-08-04 | 0 | 35 | 5 | 31 | 7 | 59 |
+| last180d | 2026-05-06 | 0 | 58 | 6 | 56 | 10 | 134 |
+| 360d | 2025-11-07 | 0 | 88 | 7 | 102 | 16 | 203 |
+| last720d | 2024-11-12 | 2 | 160 | 11 | 204 | 28 | 456 |
 
 ## Distribution status
 
-Reported by **113** distros on [repology.org](https://repology.org/project/fcitx5). **30** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+Reported by **113** distros on [repology.org](https://repology.org/project/fcitx5). **29** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,4 +91,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:55:31Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:52:57Z._
