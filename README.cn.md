@@ -26,13 +26,13 @@ x install fcitx5
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.5 / 10**
+总评分: **4.6 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 5/26 approved changesets -- score normalized to 1
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (2/10) — Found 6/26 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -47,22 +47,22 @@ x install fcitx5
 
 ## 流行度
 
-- **Star**: 2,621 · **Fork**: 195 · **开放 issue**: 951 · **贡献者**: 77
+- **Star**: 2,623 · **Fork**: 195 · **开放 issue**: 950 · **贡献者**: 77
 
 ## 累计统计
 
-- **发布数**: 4 · **已合并 PR**: 321 · **开放 PR**: 14 · **已关闭 issue**: 890 · **开放 issue**: 61 · **提交数**: 2429
+- **发布数**: 4 · **已合并 PR**: 321 · **开放 PR**: 14 · **已关闭 issue**: 889 · **开放 issue**: 61 · **提交数**: 2429
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 4 | 2 | 10 | 3 | 12 |
-| last60d | 2026-09-04 | 0 | 21 | 4 | 27 | 5 | 38 |
-| 90d | 2026-08-05 | 0 | 34 | 6 | 31 | 7 | 59 |
-| last180d | 2026-05-07 | 0 | 58 | 7 | 55 | 10 | 134 |
-| 360d | 2025-11-08 | 0 | 88 | 8 | 102 | 16 | 203 |
-| last720d | 2024-11-13 | 2 | 160 | 12 | 203 | 28 | 453 |
+| 30d | 2026-10-05 | 0 | 4 | 2 | 10 | 3 | 12 |
+| last60d | 2026-09-05 | 0 | 21 | 4 | 27 | 5 | 38 |
+| 90d | 2026-08-06 | 0 | 33 | 6 | 31 | 7 | 59 |
+| last180d | 2026-05-08 | 0 | 58 | 7 | 53 | 10 | 134 |
+| 360d | 2025-11-09 | 0 | 88 | 8 | 101 | 16 | 203 |
+| last720d | 2024-11-14 | 2 | 160 | 12 | 202 | 28 | 453 |
 
 ## 发行版状态
 
@@ -91,4 +91,4 @@ fcitx5 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T07:41:08Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T07:08:52Z._

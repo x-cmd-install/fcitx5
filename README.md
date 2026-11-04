@@ -26,13 +26,13 @@ Total: **92,623** lines of code across **663** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.5 / 10**
+Overall score: **4.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 5/26 approved changesets -- score normalized to 1
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (2/10) — Found 6/26 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,621 · **Forks**: 195 · **Open issues**: 951 · **Contributors**: 77
+- **Stars**: 2,623 · **Forks**: 195 · **Open issues**: 950 · **Contributors**: 77
 
 ## Totals (cumulative)
 
-- **Releases**: 4 · **Merged PRs**: 321 · **Open PRs**: 14 · **Closed issues**: 890 · **Open issues**: 61 · **Commits**: 2429
+- **Releases**: 4 · **Merged PRs**: 321 · **Open PRs**: 14 · **Closed issues**: 889 · **Open issues**: 61 · **Commits**: 2429
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 0 | 4 | 2 | 10 | 3 | 12 |
-| last60d | 2026-09-04 | 0 | 21 | 4 | 27 | 5 | 38 |
-| 90d | 2026-08-05 | 0 | 34 | 6 | 31 | 7 | 59 |
-| last180d | 2026-05-07 | 0 | 58 | 7 | 55 | 10 | 134 |
-| 360d | 2025-11-08 | 0 | 88 | 8 | 102 | 16 | 203 |
-| last720d | 2024-11-13 | 2 | 160 | 12 | 203 | 28 | 453 |
+| 30d | 2026-10-05 | 0 | 4 | 2 | 10 | 3 | 12 |
+| last60d | 2026-09-05 | 0 | 21 | 4 | 27 | 5 | 38 |
+| 90d | 2026-08-06 | 0 | 33 | 6 | 31 | 7 | 59 |
+| last180d | 2026-05-08 | 0 | 58 | 7 | 53 | 10 | 134 |
+| 360d | 2025-11-09 | 0 | 88 | 8 | 101 | 16 | 203 |
+| last720d | 2024-11-14 | 2 | 160 | 12 | 202 | 28 | 453 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T07:41:08Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:08:50Z._
