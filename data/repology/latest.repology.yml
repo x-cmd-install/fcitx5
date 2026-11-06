@@ -1,18 +1,7 @@
-- repo: nix_stable_24_05
+- repo: nix_stable_25_11
   srcname: fcitx5
   visiblename: fcitx5
-  version: 5.1.10
-  origversion: null
-  status: outdated
-  summary: Next generation of fcitx
-  maintainers:
-    - poscat@mail.poscat.moe
-  licenses:
-    - LGPL-2.1-or-later
-- repo: nix_stable_24_11
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.11
+  version: 5.1.16
   origversion: null
   status: outdated
   summary: Next generation of fcitx
@@ -30,6 +19,29 @@
   licenses:
     - LGPL-2.1-or-later
     - Unicode-DFS-2016
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-data
+    - fcitx5-modules
+    - fcitx5-modules-dev
+    - libfcitx5config-dev
+    - libfcitx5config6
+    - libfcitx5core-dev
+    - libfcitx5core7
+    - libfcitx5utils-dev
+    - libfcitx5utils2
+  visiblename: fcitx5
+  version: 5.0.21
+  origversion: 5.0.21-3
+  status: outdated
+  maintainers:
+    - debian-input-method@lists.debian.org
+    - byang@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: fcitx5
@@ -160,6 +172,30 @@
     - i@lin.moe
   licenses:
     - LGPL-2.1-or-later
+- repo: raspbian_stable
+  subrepo: main
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-data
+    - fcitx5-frontend-all
+    - fcitx5-modules
+    - fcitx5-modules-dev
+    - libfcitx5config-dev
+    - libfcitx5config6
+    - libfcitx5core-dev
+    - libfcitx5core7
+    - libfcitx5utils-dev
+    - libfcitx5utils2
+  visiblename: fcitx5
+  version: 5.1.12
+  origversion: 5.1.12-2
+  status: outdated
+  maintainers:
+    - debian-input-method@lists.debian.org
+    - byang@debian.org
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: fcitx5
@@ -295,8 +331,8 @@
   srcname: fcitx5-git
   binname: fcitx5-git
   visiblename: fcitx5-git
-  version: 5.1.23.r17.ge719dcb
-  origversion: 5.1.23.r17.ge719dcb-1
+  version: 5.1.23.r18.g5ffd9e5
+  origversion: 5.1.23.r18.g5ffd9e5-1
   status: rolling
   summary: Next generation of fcitx
   maintainers:
@@ -484,17 +520,6 @@
     - byang@debian.org
   categories:
     - misc
-- repo: nix_stable_25_05
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.12
-  origversion: null
-  status: outdated
-  summary: Next generation of fcitx
-  maintainers:
-    - poscat@mail.poscat.moe
-  licenses:
-    - LGPL-2.1-or-later
 - repo: debian_unstable
   subrepo: sid/main
   srcname: fcitx5
@@ -544,6 +569,17 @@
   maintainers:
     - debian-input-method@lists.debian.org
     - byang@debian.org
+- repo: nix_stable_26_05
+  srcname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.19
+  origversion: null
+  status: outdated
+  summary: Next generation of fcitx
+  maintainers:
+    - poscat@mail.poscat.moe
+  licenses:
+    - LGPL-2.1-or-later
 - repo: deepin_unstable
   subrepo: main
   srcname: fcitx5
@@ -643,25 +679,6 @@
   categories:
     - misc
 - repo: fedora_39
-  subrepo: release
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-    - fcitx5-debuginfo
-    - fcitx5-debugsource
-  visiblename: fcitx5
-  version: 5.1.0
-  origversion: 5.1.0-1.fc39
-  status: legacy
-  summary: Next generation of fcitx
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: fcitx5
   binnames:
@@ -676,6 +693,25 @@
   version: 5.1.10
   origversion: 5.1.10-3.fc39
   status: outdated
+  summary: Next generation of fcitx
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+    - fcitx5-debuginfo
+    - fcitx5-debugsource
+  visiblename: fcitx5
+  version: 5.1.0
+  origversion: 5.1.0-1.fc39
+  status: legacy
   summary: Next generation of fcitx
   licenses:
     - LGPLv2+
@@ -722,24 +758,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-libs
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-  visiblename: fcitx5
-  version: 5.1.10
-  origversion: 5.1.10-3.fc41
-  status: legacy
-  summary: Next generation of fcitx
-  licenses:
-    - LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: fcitx5
   binnames:
@@ -755,6 +773,24 @@
   summary: Next generation of fcitx
   licenses:
     - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-libs
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+  visiblename: fcitx5
+  version: 5.1.10
+  origversion: 5.1.10-3.fc41
+  status: legacy
+  summary: Next generation of fcitx
+  licenses:
+    - LGPLv2+
   categories:
     - Unspecified
 - repo: fedora_42
@@ -794,6 +830,24 @@
   categories:
     - Unspecified
 - repo: fedora_43
+  subrepo: release
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-libs
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+  visiblename: fcitx5
+  version: 5.1.13
+  origversion: 5.1.13-2.fc43
+  status: legacy
+  summary: Next generation of fcitx
+  licenses:
+    - LicenseRef-Callaway-LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_43
   subrepo: updates
   srcname: fcitx5
   binnames:
@@ -811,7 +865,7 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
-- repo: fedora_43
+- repo: fedora_44
   subrepo: release
   srcname: fcitx5
   binnames:
@@ -821,8 +875,8 @@
     - fcitx5-devel
     - fcitx5-autostart
   visiblename: fcitx5
-  version: 5.1.13
-  origversion: 5.1.13-2.fc43
+  version: 5.1.19
+  origversion: 5.1.19-1.fc44
   status: legacy
   summary: Next generation of fcitx
   licenses:
@@ -842,24 +896,6 @@
   version: 5.1.23
   origversion: 5.1.23-1.fc44
   status: newest
-  summary: Next generation of fcitx
-  licenses:
-    - LicenseRef-Callaway-LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-libs
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-  visiblename: fcitx5
-  version: 5.1.19
-  origversion: 5.1.19-1.fc44
-  status: legacy
   summary: Next generation of fcitx
   licenses:
     - LicenseRef-Callaway-LGPLv2+
@@ -974,10 +1010,10 @@
   licenses:
     - LGPL-2.1-or-later
     - Unicode-DFS-2016
-- repo: nix_stable_25_11
+- repo: nix_stable_24_05
   srcname: fcitx5
   visiblename: fcitx5
-  version: 5.1.16
+  version: 5.1.10
   origversion: null
   status: outdated
   summary: Next generation of fcitx
@@ -985,10 +1021,21 @@
     - poscat@mail.poscat.moe
   licenses:
     - LGPL-2.1-or-later
-- repo: nix_stable_26_05
+- repo: nix_stable_24_11
   srcname: fcitx5
   visiblename: fcitx5
-  version: 5.1.19
+  version: 5.1.11
+  origversion: null
+  status: outdated
+  summary: Next generation of fcitx
+  maintainers:
+    - poscat@mail.poscat.moe
+  licenses:
+    - LGPL-2.1-or-later
+- repo: nix_stable_25_05
+  srcname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.12
   origversion: null
   status: outdated
   summary: Next generation of fcitx
@@ -1249,6 +1296,30 @@
     - LGPLv2.1+
   categories:
     - Development
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-data
+    - fcitx5-frontend-all
+    - fcitx5-modules
+    - fcitx5-modules-dev
+    - libfcitx5config-dev
+    - libfcitx5config6
+    - libfcitx5core-dev
+    - libfcitx5core7
+    - libfcitx5utils-dev
+    - libfcitx5utils2
+  visiblename: fcitx5
+  version: 5.1.12
+  origversion: 5.1.12-2
+  status: outdated
+  maintainers:
+    - debian-input-method@lists.debian.org
+    - byang@debian.org
+  categories:
+    - utils
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: fcitx5
@@ -1494,77 +1565,15 @@
     - byang@debian.org
   categories:
     - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-frontend-all
-    - fcitx5-modules
-    - fcitx5-modules-dev
-    - libfcitx5config-dev
-    - libfcitx5config6
-    - libfcitx5core-dev
-    - libfcitx5core7
-    - libfcitx5utils-dev
-    - libfcitx5utils2
-  visiblename: fcitx5
+- repo: wikidata
+  srcname: Q112664319
+  visiblename: Fcitx5
   version: 5.1.12
-  origversion: 5.1.12-2
+  origversion: null
   status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - byang@debian.org
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-modules
-    - fcitx5-modules-dev
-    - libfcitx5config-dev
-    - libfcitx5config6
-    - libfcitx5core-dev
-    - libfcitx5core7
-    - libfcitx5utils-dev
-    - libfcitx5utils2
-  visiblename: fcitx5
-  version: 5.0.21
-  origversion: 5.0.21-3
-  status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - byang@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-frontend-all
-    - fcitx5-modules
-    - fcitx5-modules-dev
-    - libfcitx5config-dev
-    - libfcitx5config6
-    - libfcitx5core-dev
-    - libfcitx5core7
-    - libfcitx5utils-dev
-    - libfcitx5utils2
-  visiblename: fcitx5
-  version: 5.1.12
-  origversion: 5.1.12-2
-  status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - byang@debian.org
-  categories:
-    - misc
+  summary: next generation of Fcitx
+  licenses:
+    - GNU Lesser General Public License, version 2.1 or later
 - repo: raspbian_testing
   subrepo: main
   srcname: fcitx5
@@ -1974,12 +1983,3 @@
     - congdanhqx@gmail.com
   licenses:
     - LGPL-2.1-or-later
-- repo: wikidata
-  srcname: Q112664319
-  visiblename: Fcitx5
-  version: 5.1.12
-  origversion: null
-  status: outdated
-  summary: next generation of Fcitx
-  licenses:
-    - GNU Lesser General Public License, version 2.1 or later
