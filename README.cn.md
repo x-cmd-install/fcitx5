@@ -24,16 +24,6 @@ x install fcitx5
 | CMake | 2,196 | 124 | 409 | 76 |
 | Xml | 1,994 | 10 | 285 | 7 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **4.6 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (2/10) — Found 6/26 approved changesets -- score normalized to 2
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Packaging** (-1/10) — packaging workflow not detected
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/fcitx/fcitx5>
@@ -47,7 +37,7 @@ x install fcitx5
 
 ## 流行度
 
-- **Star**: 2,633 · **Fork**: 200 · **开放 issue**: 954 · **贡献者**: 78
+- **Star**: 2,634 · **Fork**: 199 · **开放 issue**: 954 · **贡献者**: 78
 
 ## 累计统计
 
@@ -57,30 +47,12 @@ x install fcitx5
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 5 | 2 | 6 | 4 | 20 |
-| last60d | 2026-09-17 | 0 | 17 | 3 | 20 | 5 | 48 |
-| 90d | 2026-08-18 | 0 | 30 | 4 | 33 | 7 | 83 |
-| last180d | 2026-05-20 | 0 | 61 | 6 | 54 | 10 | 164 |
-| 360d | 2025-11-21 | 0 | 93 | 7 | 102 | 16 | 231 |
-| last720d | 2024-11-26 | 2 | 160 | 11 | 205 | 28 | 480 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/fcitx5) 上共有 **114** 个发行版报告此项目。**32** 个 ✅ 已是最新上游版本，**73** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `5.1.23` | ✅ latest |
-| Debian 14 | `5.1.23` | ✅ latest |
-| Debian 13 | `5.1.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.1.19` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.1.7` | ⚠️ outdated |
-| Arch | `5.1.23` | ✅ latest |
-| Fedora rawhide | `5.1.23` | ✅ latest |
-| Nix unstable | `5.1.23` | ✅ latest |
-| Void | `5.1.21` | ⚠️ outdated |
-| Alpine edge | `5.1.23` | ✅ latest |
-| openSUSE Tumbleweed | `5.1.23` | ✅ latest |
+| 30d | 2026-10-18 | 0 | 5 | 2 | 6 | 4 | 20 |
+| last60d | 2026-09-18 | 0 | 16 | 2 | 19 | 5 | 48 |
+| 90d | 2026-08-19 | 0 | 30 | 4 | 32 | 7 | 83 |
+| last180d | 2026-05-21 | 0 | 61 | 6 | 54 | 10 | 164 |
+| 360d | 2025-11-22 | 0 | 93 | 7 | 102 | 16 | 231 |
+| last720d | 2024-11-27 | 2 | 160 | 11 | 202 | 28 | 480 |
 
 ## 改进这些数据
 
@@ -91,4 +63,4 @@ fcitx5 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T07:47:11Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T10:31:04Z._
