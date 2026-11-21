@@ -1,15 +1,3 @@
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.0.18
-  origversion: 5.0.18-bp155.1.14
-  status: outdated
-  summary: Next generation of fcitx
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - System/I18n/Chinese
 - repo: aerynos
   srcname: fcitx5
   visiblename: fcitx5
@@ -137,6 +125,17 @@
     - i@lin.moe
   licenses:
     - LGPL-2.1-or-later
+- repo: nix_stable_25_11
+  srcname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.16
+  origversion: null
+  status: outdated
+  summary: Next generation of fcitx
+  maintainers:
+    - poscat@mail.poscat.moe
+  licenses:
+    - LGPL-2.1-or-later
 - repo: alpine_3_24
   subrepo: community
   srcname: fcitx5
@@ -189,18 +188,6 @@
     - i@lin.moe
   licenses:
     - LGPL-2.1-or-later
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.1
-  origversion: 5.1.1-bp156.1.4
-  status: outdated
-  summary: Next generation of fcitx
-  licenses:
-    - LGPL-2.1-or-later
-  categories:
-    - System/I18n/Chinese
 - repo: alpine_edge
   subrepo: community
   srcname: fcitx5
@@ -308,6 +295,17 @@
     - lilac@aur
   licenses:
     - GPL
+- repo: nix_stable_26_05
+  srcname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.19
+  origversion: null
+  status: outdated
+  summary: Next generation of fcitx
+  maintainers:
+    - poscat@mail.poscat.moe
+  licenses:
+    - LGPL-2.1-or-later
 - repo: artix
   subrepo: world
   srcname: fcitx5
@@ -364,15 +362,6 @@
   summary: Generic input method framework (locale data)
   licenses:
     - LGPL-2.1-or-later
-- repo: wikidata
-  srcname: Q112664319
-  visiblename: Fcitx5
-  version: 5.1.12
-  origversion: null
-  status: outdated
-  summary: next generation of Fcitx
-  licenses:
-    - GNU Lesser General Public License, version 2.1 or later
 - repo: debian_11
   subrepo: bullseye/main
   srcname: fcitx5
@@ -447,18 +436,6 @@
     - byang@debian.org
   categories:
     - misc
-- repo: pkgsrc_current
-  srcname: inputmethod/fcitx5
-  binname: fcitx5
-  visiblename: inputmethod/fcitx5
-  version: 5.1.7
-  origversion: 5.1.7nb13
-  status: outdated
-  summary: Input method framework with extension support
-  maintainers:
-    - ryoon@netbsd.org
-  categories:
-    - inputmethod
 - repo: debian_13
   subrepo: trixie/main
   srcname: fcitx5
@@ -531,56 +508,6 @@
     - byang@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-module-emoji
-    - fcitx5-module-quickphrase
-    - fcitx5-module-wayland
-    - fcitx5-module-xorg
-    - fcitx5-modules
-    - fcitx5-modules-dev
-    - libfcitx5config-dev
-    - libfcitx5config6
-    - libfcitx5core-dev
-    - libfcitx5core7
-    - libfcitx5utils-dev
-    - libfcitx5utils2
-  visiblename: fcitx5
-  version: 5.0.21
-  origversion: 5.0.21-1deepin1
-  status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - byang@debian.org
-- repo: deepin_unstable
-  subrepo: main
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-module-emoji
-    - fcitx5-module-quickphrase
-    - fcitx5-module-wayland
-    - fcitx5-module-xorg
-    - fcitx5-modules
-    - fcitx5-modules-dev
-    - libfcitx5config-dev
-    - libfcitx5config6
-    - libfcitx5core-dev
-    - libfcitx5core7
-    - libfcitx5utils-dev
-    - libfcitx5utils2
-  visiblename: fcitx5
-  version: 5.0.14.1
-  origversion: 5.0.14.1-1
-  status: legacy
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - byang@debian.org
 - repo: deepin_25
   subrepo: main
   srcname: fcitx5
@@ -694,6 +621,26 @@
   categories:
     - Unspecified
 - repo: fedora_40
+  subrepo: release
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-libs
+    - fcitx5-data
+    - fcitx5-devel
+    - fcitx5-autostart
+    - fcitx5-debuginfo
+    - fcitx5-debugsource
+  visiblename: fcitx5
+  version: 5.1.8
+  origversion: 5.1.8-1.fc40
+  status: legacy
+  summary: Next generation of fcitx
+  licenses:
+    - LGPLv2+
+  categories:
+    - Unspecified
+- repo: fedora_40
   subrepo: updates
   srcname: fcitx5
   binnames:
@@ -713,8 +660,8 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: release
+- repo: fedora_41
+  subrepo: updates
   srcname: fcitx5
   binnames:
     - fcitx5
@@ -722,15 +669,13 @@
     - fcitx5-data
     - fcitx5-devel
     - fcitx5-autostart
-    - fcitx5-debuginfo
-    - fcitx5-debugsource
   visiblename: fcitx5
-  version: 5.1.8
-  origversion: 5.1.8-1.fc40
-  status: legacy
+  version: 5.1.13
+  origversion: 5.1.13-1.fc41
+  status: outdated
   summary: Next generation of fcitx
   licenses:
-    - LGPLv2+
+    - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
 - repo: fedora_41
@@ -751,7 +696,7 @@
     - LGPLv2+
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_42
   subrepo: updates
   srcname: fcitx5
   binnames:
@@ -761,8 +706,8 @@
     - fcitx5-devel
     - fcitx5-autostart
   visiblename: fcitx5
-  version: 5.1.13
-  origversion: 5.1.13-1.fc41
+  version: 5.1.17
+  origversion: 5.1.17-1.fc42
   status: outdated
   summary: Next generation of fcitx
   licenses:
@@ -787,8 +732,8 @@
     - LicenseRef-Callaway-LGPLv2+
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: fcitx5
   binnames:
     - fcitx5
@@ -797,9 +742,9 @@
     - fcitx5-devel
     - fcitx5-autostart
   visiblename: fcitx5
-  version: 5.1.17
-  origversion: 5.1.17-1.fc42
-  status: outdated
+  version: 5.1.13
+  origversion: 5.1.13-2.fc43
+  status: legacy
   summary: Next generation of fcitx
   licenses:
     - LicenseRef-Callaway-LGPLv2+
@@ -818,24 +763,6 @@
   version: 5.1.21
   origversion: 5.1.21-1.fc43
   status: outdated
-  summary: Next generation of fcitx
-  licenses:
-    - LicenseRef-Callaway-LGPLv2+
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-libs
-    - fcitx5-data
-    - fcitx5-devel
-    - fcitx5-autostart
-  visiblename: fcitx5
-  version: 5.1.13
-  origversion: 5.1.13-2.fc43
-  status: legacy
   summary: Next generation of fcitx
   licenses:
     - LicenseRef-Callaway-LGPLv2+
@@ -1032,28 +959,6 @@
   srcname: fcitx5
   visiblename: fcitx5
   version: 5.1.12
-  origversion: null
-  status: outdated
-  summary: Next generation of fcitx
-  maintainers:
-    - poscat@mail.poscat.moe
-  licenses:
-    - LGPL-2.1-or-later
-- repo: nix_stable_25_11
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.16
-  origversion: null
-  status: outdated
-  summary: Next generation of fcitx
-  maintainers:
-    - poscat@mail.poscat.moe
-  licenses:
-    - LGPL-2.1-or-later
-- repo: nix_stable_26_05
-  srcname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.19
   origversion: null
   status: outdated
   summary: Next generation of fcitx
@@ -1314,6 +1219,30 @@
     - LGPLv2.1+
   categories:
     - Development
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: fcitx5
+  binnames:
+    - fcitx5
+    - fcitx5-data
+    - fcitx5-frontend-all
+    - fcitx5-modules
+    - fcitx5-modules-dev
+    - libfcitx5config-dev
+    - libfcitx5config6
+    - libfcitx5core-dev
+    - libfcitx5core7
+    - libfcitx5utils-dev
+    - libfcitx5utils2
+  visiblename: fcitx5
+  version: 5.1.12
+  origversion: 5.1.12-2
+  status: outdated
+  maintainers:
+    - debian-input-method@lists.debian.org
+    - byang@debian.org
+  categories:
+    - utils
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: fcitx5
@@ -1336,6 +1265,30 @@
     - LGPLv2.1+
   categories:
     - Development
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: fcitx5
+  visiblename: fcitx5
+  version: 5.0.18
+  origversion: 5.0.18-bp155.1.14
+  status: outdated
+  summary: Next generation of fcitx
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - System/I18n/Chinese
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.1
+  origversion: 5.1.1-bp156.1.4
+  status: outdated
+  summary: Next generation of fcitx
+  licenses:
+    - LGPL-2.1-or-later
+  categories:
+    - System/I18n/Chinese
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: fcitx5
@@ -1467,6 +1420,18 @@
     - ryoon@netbsd.org
   categories:
     - inputmethod
+- repo: pkgsrc_current
+  srcname: inputmethod/fcitx5
+  binname: fcitx5
+  visiblename: inputmethod/fcitx5
+  version: 5.1.7
+  origversion: 5.1.7nb13
+  status: outdated
+  summary: Input method framework with extension support
+  maintainers:
+    - ryoon@netbsd.org
+  categories:
+    - inputmethod
 - repo: pureos_amber
   subrepo: amber/main
   srcname: fcitx5
@@ -1517,30 +1482,6 @@
   visiblename: fcitx5
   version: 5.0.5
   origversion: 5.0.5-1
-  status: outdated
-  maintainers:
-    - debian-input-method@lists.debian.org
-    - byang@debian.org
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: fcitx5
-  binnames:
-    - fcitx5
-    - fcitx5-data
-    - fcitx5-frontend-all
-    - fcitx5-modules
-    - fcitx5-modules-dev
-    - libfcitx5config-dev
-    - libfcitx5config6
-    - libfcitx5core-dev
-    - libfcitx5core7
-    - libfcitx5utils-dev
-    - libfcitx5utils2
-  visiblename: fcitx5
-  version: 5.1.12
-  origversion: 5.1.12-2
   status: outdated
   maintainers:
     - debian-input-method@lists.debian.org
@@ -1765,6 +1706,32 @@
     - LGPL
   categories:
     - extra/library
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: fcitx5
+  binname: fcitx
+  visiblename: fcitx
+  version: 5.1.21
+  origversion: 5.1.21_1
+  status: outdated
+  summary: Flexible Context-aware Input Tool with eXtension - v5 - transition
+  maintainers:
+    - congdanhqx@gmail.com
+  licenses:
+    - LGPL-2.1-or-later
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: fcitx5
+  binname: fcitx5
+  visiblename: fcitx5
+  version: 5.1.21
+  origversion: 5.1.21_1
+  status: outdated
+  summary: Flexible Context-aware Input Tool with eXtension - v5
+  maintainers:
+    - congdanhqx@gmail.com
+  licenses:
+    - LGPL-2.1-or-later
 - repo: termux
   srcname: fcitx5
   binname: fcitx5
@@ -1978,32 +1945,6 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: fcitx5
-  binname: fcitx
-  visiblename: fcitx
-  version: 5.1.21
-  origversion: 5.1.21_1
-  status: outdated
-  summary: Flexible Context-aware Input Tool with eXtension - v5 - transition
-  maintainers:
-    - congdanhqx@gmail.com
-  licenses:
-    - LGPL-2.1-or-later
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: fcitx5
-  binname: fcitx5
-  visiblename: fcitx5
-  version: 5.1.21
-  origversion: 5.1.21_1
-  status: outdated
-  summary: Flexible Context-aware Input Tool with eXtension - v5
-  maintainers:
-    - congdanhqx@gmail.com
-  licenses:
-    - LGPL-2.1-or-later
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: fcitx5
   binname: libfcitx5
   visiblename: libfcitx5
   version: 5.1.21
@@ -2027,3 +1968,12 @@
     - congdanhqx@gmail.com
   licenses:
     - LGPL-2.1-or-later
+- repo: wikidata
+  srcname: Q112664319
+  visiblename: Fcitx5
+  version: 5.1.12
+  origversion: null
+  status: outdated
+  summary: next generation of Fcitx
+  licenses:
+    - GNU Lesser General Public License, version 2.1 or later
