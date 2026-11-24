@@ -14,11 +14,11 @@ x install fcitx5
 
 ## Code insight
 
-Total: **94,498** lines of code across **678** files in the top 5 languages.
+Total: **94,497** lines of code across **678** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Cpp | 51,513 | 2,549 | 6,305 | 292 |
+| Cpp | 51,512 | 2,554 | 6,305 | 292 |
 | CHeader | 31,794 | 5,511 | 4,491 | 294 |
 | Svg | 3,098 | 8 | 8 | 9 |
 | CMake | 2,196 | 124 | 409 | 76 |
@@ -33,26 +33,26 @@ Total: **94,498** lines of code across **678** files in the top 5 languages.
 ## Release
 
 - **Latest**: `5.1.12` (2025-01-23)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-23
 
 ## Popularity
 
-- **Stars**: 2,633 · **Forks**: 200 · **Open issues**: 954 · **Contributors**: 78
+- **Stars**: 2,637 · **Forks**: 200 · **Open issues**: 954 · **Contributors**: 78
 
 ## Totals (cumulative)
 
-- **Releases**: 4 · **Merged PRs**: 326 · **Open PRs**: 13 · **Closed issues**: 893 · **Open issues**: 61 · **Commits**: 2463
+- **Releases**: 4 · **Merged PRs**: 326 · **Open PRs**: 13 · **Closed issues**: 893 · **Open issues**: 61 · **Commits**: 2464
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 5 | 2 | 4 | 4 | 0 |
-| last60d | 2026-09-24 | 0 | 12 | 2 | 18 | 4 | 0 |
-| 90d | 2026-08-25 | 0 | 28 | 3 | 32 | 6 | 0 |
-| last180d | 2026-05-27 | 0 | 59 | 6 | 54 | 10 | 0 |
-| 360d | 2025-11-28 | 0 | 91 | 7 | 101 | 16 | 0 |
-| last720d | 2024-12-03 | 2 | 158 | 11 | 201 | 28 | 479 |
+| 30d | 2026-10-25 | 0 | 5 | 2 | 4 | 4 | 19 |
+| last60d | 2026-09-25 | 0 | 12 | 2 | 18 | 4 | 30 |
+| 90d | 2026-08-26 | 0 | 28 | 3 | 32 | 6 | 81 |
+| last180d | 2026-05-28 | 0 | 58 | 6 | 54 | 10 | 160 |
+| 360d | 2025-11-29 | 0 | 91 | 7 | 101 | 16 | 228 |
+| last720d | 2024-12-04 | 2 | 158 | 11 | 200 | 28 | 479 |
 
 ## Distribution status
 
@@ -81,4 +81,4 @@ Install metadata for fcitx5 lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T10:56:48Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:24:19Z._
