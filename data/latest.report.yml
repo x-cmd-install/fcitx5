@@ -2,20 +2,20 @@ about:
   description: "Next generation of fcitx, cross-platform input method framework."
   license: NOASSERTION
   homepage: https://fcitx-im.org/wiki/Fcitx_5
-  head: f1c0226
+  head: 71b4a4c
   archived: false
   latestVersion: "5.1.12"
   latestRelease: "5.1.12"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T10:14:20Z
+  collectedAt: 2026-11-28T09:30:05Z
 timeline:
   created: 2015-08-04
-  lastCommit: 2026-11-25
+  lastCommit: 2026-11-27
   lastVersion: 2025-01-23
   lastRelease: 2025-01-23
   lastPrerelease: 
 popularity:
-  star: 2640
+  star: 2641
   watcher: 27
   fork: 200
   release: 4
@@ -23,82 +23,82 @@ popularity:
   pullRequest: 453
   issue: 954
 language:
-  C++: 3103204
+  C++: 3108274
   C: 190210
   CMake: 108275
   Shell: 60132
   Python: 36773
-totalBytes: 3498594
+totalBytes: 3503664
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
-    mergedPR: 6
-    openPR: 3
+    mergedPR: 7
+    openPR: 1
     closedIssue: 3
     openIssue: 2
-    commit: 20
+    commit: 23
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
-    mergedPR: 10
-    openPR: 3
-    closedIssue: 16
+    mergedPR: 11
+    openPR: 1
+    closedIssue: 15
     openIssue: 4
-    commit: 31
+    commit: 34
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
-    mergedPR: 29
-    openPR: 4
-    closedIssue: 32
+    mergedPR: 30
+    openPR: 2
+    closedIssue: 31
     openIssue: 6
-    commit: 82
+    commit: 85
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
-    mergedPR: 59
-    openPR: 7
+    mergedPR: 60
+    openPR: 5
     closedIssue: 54
     openIssue: 10
-    commit: 161
+    commit: 164
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
-    mergedPR: 91
-    openPR: 8
+    mergedPR: 92
+    openPR: 6
     closedIssue: 101
     openIssue: 16
-    commit: 229
+    commit: 232
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 2
     mergedPR: 158
-    openPR: 12
+    openPR: 10
     closedIssue: 198
     openIssue: 28
-    commit: 476
+    commit: 475
 total:
   release: 4
-  mergedPR: 327
-  openPR: 14
+  mergedPR: 328
+  openPR: 12
   closedIssue: 893
   openIssue: 61
-  commit: 2465
+  commit: 2468
 ---
 path: /home/runner/.x-repo/github.com/fcitx/fcitx5
-collectedAt: 2026-11-27T10:14:25Z
+collectedAt: 2026-11-28T09:30:07Z
 loc:
   Cpp:
-    code: 51541
-    comments: 2554
-    blanks: 6309
+    code: 51416
+    comments: 2571
+    blanks: 6297
     files: 292
   CHeader:
-    code: 31794
-    comments: 5511
-    blanks: 4491
-    files: 294
+    code: 31983
+    comments: 5537
+    blanks: 4509
+    files: 295
   Svg:
     code: 3098
     comments: 8
@@ -125,7 +125,7 @@ loc:
     blanks: 107
     files: 4
   Autoconf:
-    code: 705
+    code: 706
     comments: 51
     blanks: 110
     files: 42
@@ -160,10 +160,10 @@ loc:
     blanks: 100
     files: 2
 total:
-  code: 94526
-  comments: 8907
-  blanks: 12041
-  files: 749
+  code: 94591
+  comments: 8950
+  blanks: 12047
+  files: 750
 ---
 date: "2026-11-23"
 repo:
